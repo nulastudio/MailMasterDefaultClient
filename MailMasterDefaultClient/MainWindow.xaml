@@ -1,0 +1,12 @@
+﻿<Window x:Class="MailMasterDefaultClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MailMasterDefaultClient"
+        mc:Ignorable="d"
+        Title="网易邮箱大师默认客户端" Height="209.866" Width="442.825">
+    <Grid>
+        <Button Content="设置网易邮箱大师为默认客户端" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="282" Height="73" FontSize="18" Click="Button_Click"/>
+    </Grid>
+</Window>
